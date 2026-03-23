@@ -1,0 +1,36 @@
+﻿
+
+<html 
+<head>
+
+    <title>WPD-PR14</title>
+</head>
+<body background="A.jpg">
+         <h1>Practical 14</h1>
+
+
+    <img alt="Image not found"
+         height="260"
+         width="300"
+         border="1px"
+         src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1702383956/evo/2023/12/Aston%20Martin%20DB12%20eCoty.jpg" /><br>
+    <img style="alt:Image not found;
+         height: 260px;
+         width: 300px;
+         border: 1px solid white;"
+         src="https://images.overdrive.in/wp-content/odgallery/2022/08/63809_2022_Royal_Enfield_Hunter_350_468x263.jpg" /> <br>
+
+
+
+<h2>CONTACT INFORMATION</h2>
+<p><b><u>Name</u>:</b><i><b>Gamnesh M. Pawar</b></i></p>
+<address>
+      <h2><sub></sub></h2>
+  <b> Met`s Institute of technology - polythechnic</br>
+      Department of information technology</br>
+      Email - ganeshrajput4565@gmail.com</br>
+      No. - 9403571545</br></br>
+</address>
+
+</body>
+</html>

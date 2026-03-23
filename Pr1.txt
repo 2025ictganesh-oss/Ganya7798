@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>fyif22_ABG
+</title>
+</head>
+
+<body>
+<h1>MET BKC IOT POLYTECHNIC</h1>
+<h2>information technology</h2>
+<p>web page designing using HTML</P>
+<tagname></tagname>
+
+</body>
+
+</html>

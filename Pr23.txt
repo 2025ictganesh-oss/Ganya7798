@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>MET IT Practicals Portal</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+/* 🔥 BACKGROUND */
+:root{
+--bg-image: url("bg.avif");
+}
+
+body{
+background: var(--bg-image) no-repeat center center fixed;
+background-size: cover;
+}
+
+/* 🔥 HEADER */
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:linear-gradient(90deg,#0077ff,#00c6ff);
+box-shadow:0 4px 20px rgba(0,0,0,0.3);
+}
+/* 🔥 IT Polytechnic WHITE */
+header .highlight{
+color:white;
+font-weight:500;
+}
+/* LOGO */
+.logo3d{
+font-size:28px;
+font-weight:700;
+color:white;
+text-shadow:0 2px 6px rgba(0,0,0,0.2);
+animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-4px);}
+100%{transform:translateY(0);}
+}
+
+.highlight{color:#ffd1e8;}
+
+/* NAV */
+nav{display:flex;gap:15px;}
+nav a{
+color:white;
+background:linear-gradient(45deg,#0077ff,#00c6ff);
+padding:8px 16px;
+border-radius:20px;
+text-decoration:none;
+transition:0.3s;
+}
+nav a:hover{
+transform:scale(1.1);
+}
+
+/* SEARCH */
+.search-box{text-align:center;margin:20px;}
+.search-box input{
+padding:10px;
+width:60%;
+border-radius:20px;
+border:none;
+}
+
+/* GRID */
+.box{padding:20px;}
+.rows{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+/* CARDS */
+.item{
+background:white;
+padding:15px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+cursor:pointer;
+}
+
+.item:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.done{
+border:2px solid #00c853;
+}
+
+/* BUTTONS */
+.btns{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:10px;
+}
+
+.btns a{
+padding:6px 10px;
+border-radius:6px;
+color:white;
+text-decoration:none;
+}
+
+.code{background:#0077ff;}
+.output{background:#ff4081;}
+
+/* POPUP */
+.popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.8);
+display:none;
+justify-content:center;
+align-items:center;
+}
+
+.popup iframe{
+width:80%;
+height:80%;
+background:white;
+}
+
+.popup:target{display:flex;}
+
+footer{
+text-align:center;
+padding:10px;
+background:#0077ff;
+color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<h1 class="logo3d">MET Bhujbal Knowledge City</h1>
+<p class="highlight">IT Polytechnic</p>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="search-box">
+<input type="text" id="search" placeholder="Search Practical...">
+</div>
+
+<div class="box">
+<div class="rows" id="list">
+
+<!-- 🔥 AUTO GENERATE PRACTICALS -->
+<script>
+for(let i=1;i<=25;i++){
+document.write(`
+<div class="item" onclick="markDone(this)">
+<h3>Practical ${i}</h3>
+<div class="btns">
+<a href="Pr${i}.txt" class="code">Code</a>
+<a href="#img${i}" class="output">Output</a>
+</div>
+</div>
+`);
+}
+</script>
+
+</div>
+</div>
+
+<!-- 🔥 POPUPS AUTO -->
+<script>
+for(let i=1;i<=25;i++){
+document.write(`
+<div id="img${i}" class="popup">
+<iframe src="Pr${i}.html"></iframe>
+</div>
+`);
+}
+</script>
+
+<footer>
+<p>© 2026 MET BKC | IT Diploma</p>
+</footer>
+
+<script>
+
+/* 🔍 SEARCH */
+document.getElementById("search").addEventListener("keyup",function(){
+let value=this.value.toLowerCase();
+let items=document.querySelectorAll(".item");
+
+items.forEach(item=>{
+item.style.display=item.innerText.toLowerCase().includes(value) ? "block":"none";
+});
+});
+
+/* ✅ MARK DONE */
+function markDone(el){
+el.classList.toggle("done");
+}
+
+</script>
+
+</body>
+</html>

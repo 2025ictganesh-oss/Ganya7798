@@ -1,0 +1,70 @@
+﻿<html
+<head>
+    <title>WPD-PR7</title>
+
+</head>
+
+<p style="background-color:yellow"><u>Name</u> : <i><b>Ganesh M. Pawar</i></b></p>
+<p style="background-color:aqua">This Is New Added Line</p>
+
+<p><b>Department</b> : Information Technology </p>
+
+
+
+
+<p><tt>Teletype text: Class FYIF</tt></p>
+
+<p>
+    <div style="color:red">
+        <b><u>Vision:</u></b> To shape
+
+        <strike>professionals</strike>,
+
+to coquer the prevent and future
+
+<sup>challenges </sup>
+
+        to the socio economic fabric of our society, by
+
+     <sub>institutionalizing</sub>
+    </div>
+       search devlopment research and dessenination of
+       relevant knowledge through structured learning systems.
+
+</p>
+<p>I will display &#128512;</p>
+<p>I will display &#x1F60E;</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2>CONTACT INFORMATION</h2>
+    <p><b><u>Name</u>:</b> <i><b>Ganesh M. Pawar</b></i></p>
+    <address>
+        <h2><sub(met)</sub></h2>
+       <b> Met`s Institute of technology - polytechnic</br>
+        Department of information</br>
+        Email - ganeshrajput4565@gmail</br>
+        No. - 9403571545</b></br>
+    </address>
+
+
+</body>
+</html> 

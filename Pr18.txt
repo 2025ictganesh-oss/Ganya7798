@@ -1,0 +1,77 @@
+﻿﻿
+
+<html 
+<head>
+
+    <title>WPD-PR18</title>
+</head>
+<body>
+<h1 
+    style="background-color: skyblue;"><p style="text-align: center">Nested table</p> 
+</h1>
+<table border="double" <table border="double" style="text-align: center"> 
+   <tr style="background-color:red; color: white;"> 
+<th>Sr. No</th>
+<th>Student Name</th>
+<th>Subject</th>
+<th>Percentage</th>
+<th>Boy image</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>ABC</td>
+    <td>
+       <table border="" 
+       <tr style="background-color:yellow;"> 
+           <td>Math</td>
+           <td>Sci</td>
+           <td>English</td>
+           <td>Marathi</td>
+       </tr>
+       <tr>
+          <td>90</td>
+          <td>91</td>
+          <td>92</td>
+          <td>93</td>
+          </tr>
+       </table>
+    </td>
+    <td>96%</td>
+     <td><img height="70" width="70" src="boy2.jpg" alt="photo of ABC"></td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>XYZ</td>
+    <td>
+       <table border="" 
+       <tr style="background-color:yellow;"> 
+           <td>Math</td>
+           <td>Sci</td>
+           <td>English</td>
+           <td>Marathi</td>
+       </tr>
+       <tr>
+          <td>80</td>
+          <td>98</td>
+          <td>82</td>
+          <td>95</td>
+       </tr>
+       </table>
+    </td>
+    <td>94%</td>
+    <td><img height="70" width="70" src="girl.avif" alt="photo of XYZ"></td>
+   </tr>  
+</table>
+
+<h2>CONTACT INFORMATION</h2>
+<p><b><u>Name</u>:</b><i><b>Ganesh M. Pawar</b></i></p>
+<address>
+      <h2><sub></sub></h2>
+  <b> Met`s Institute of technology - polythechnic</br>
+      Department of information technology</br>
+      Email - ganeshrajput4565@gmail.com</br>
+      No. - 9403571545</br></br>
+</address>
+
+</body>
+</html>

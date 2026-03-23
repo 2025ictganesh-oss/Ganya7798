@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8″>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+  <title>HTML – The Easy Language</title>
+</head>
+<body>
+<center><h1>HTML – The Easy Language</h1></center>
+<p style=”text-align: right;”>
+  Don’t be intimidated by the world of web development! HTML, which stands for HyperText Markup Language, is a surprisingly easy language to learn. It’s the foundation for creating web pages and forms the core structure of almost everything you see online. Web Development Bootcamp
+</p>
+<p style=”color: red;”>
+  With HTML, you can add headings, paragraphs, images, links, and more to your web pages. It uses simple tags and elements that are easy to understand, even for beginners. So, if you’ve ever wanted to build your own website or customize online content, HTML is a great place to start!
+</p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿
+
+<html 
+<head>
+
+    <title>WPD-PR8</title>
+</head>
+<body>
+
+
+<h2>CONTACT INFORMATION</h2>
+<p><b><u>Name</u>:</b><i><b>Ganesh M. Pawar</b></i></p>
+<address>
+      <h2><sub></sub></h2>
+  <b> Met`s Institute of technology - polythechnic</br>
+      Department of information technology</br>
+      Email - ganeshrajput4565@gmail.com</br>
+      No. - 9403571545</br></br>
+</address>
+
+</body>
+</html>

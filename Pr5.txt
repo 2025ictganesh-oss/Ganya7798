@@ -1,0 +1,37 @@
+﻿<html
+<head>
+    <title>WPD-PR5</title>
+
+</head>
+<body>
+    <center><h1>MET BHUJBAL KNOWLEDGE CITY</h1></center>
+    <h1>IMP OF MATHS</h1>
+    <h><b><i><u>Name</u></i>:</b>Ganesh M. Pawar</h>
+
+
+    <div>
+        Mathematics is the science of numbers, shapes, and patterns, essential
+        for logical thinking and problem-solving in daily life, from cooking to
+        finance, and forms the foundation for science, technology, and engineering
+        It developed from basic counting and measurement into a rigorous field,
+        enabling modern advancements. Studying math builds analytical skills, helps
+        with budgeting, time management, and opens doors to diverse careers
+    </div>
+
+    <h2>Maths Formule</h2>
+    <p>\((x+5)(x+2)\)</p>
+
+
+    <p><b>CONTACT INFORMATION</b></p>
+    <address>
+        <h2><sub(met)</sub></h2>
+        Met`s Institute of technology - polytechnic</br>
+        Department of information</br>
+        Email - ganeshrajput4565@gmail</br>
+        No. - 9403571545</br>
+    </address>
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿
+
+<html>
+<head>
+<title>WPD-PR15</title>
+</head>
+
+<body background="A.jpg">
+
+<h1>Practical 15</h1>
+
+<a href="https://accounts.google.com/v3/signin/identifier">
+<img alt="Image not found"
+     height="260"
+     width="300"
+     border="1"
+     src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1702383956/evo/2023/12/Aston%20Martin%20DB12%20eCoty.jpg"><br>
+
+<img alt="Image not found"
+     style="height:260px;width:300px;border:1px solid white;"
+     src="https://images.overdrive.in/wp-content/odgallery/2022/08/63809_2022_Royal_Enfield_Hunter_350_468x263.jpg"><br>
+</a>
+
+<h2>CONTACT INFORMATION</h2>
+
+<p><b><u>Name</u>:</b> <i><b>Gamnesh M. Pawar</b></i></p>
+
+<address>
+<b>Met's Institute of Technology - Polytechnic</b><br>
+Department of Information Technology<br>
+Email - ganeshrajput4565@gmail.com<br>
+No. - 9403571545<br>
+</address>
+
+</body>
+</html>
